@@ -27,19 +27,30 @@ Marker placed on exact location
 # Project Structure
 mapproject/
 │
+
 ├── manage.py
-├── requirements.txt
-├── vercel.json
+
+├── requirements.txt 
 │
-├── maps/
+
+├── maps/ 
+
 │   ├── views.py
+
 │   ├── urls.py
+
 │   └── templates/
+
 │       └── index.html
+
 │
+
 └── mapproject/
+
     ├── settings.py
+    
     ├── urls.py
+    
     └── wsgi.py
 
 # Environment Variables
